@@ -1,0 +1,34 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-input {
+    height: auto;
+    font-size: calc(10px + 4vmin);
+    background: transparent;
+    border: 3px solid hsl(0, 0%, 50%);
+    border-radius: 16px;
+    color: #fff;
+    padding: 10px;
+    transition: ease-in-out 0.5s;
+    resize: none;
+}
+
+.App-input:focus{
+    outline: none;
+}
+
+.App-container {
+
+}
